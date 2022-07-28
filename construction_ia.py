@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[2]:
 
 
 #ouverture et lecture des json
@@ -58,13 +58,13 @@ for i in chemin:
         vrai_entite_nomme.append(lieu)
 
 
-# In[ ]:
+# In[3]:
 
 
 corpus = ouvrir_json("tmp.json")
 
 
-# In[ ]:
+# In[1]:
 
 
 dictionnaire_ia5 = {}
@@ -82,26 +82,29 @@ for nom_artiste ,liste_chansons in tqdm.tqdm(corpus.items()):
             artiste = element["album"]["artist"]["name"]
         except:
             artiste = "pas de nom"
-        dictionnaire_ia5.setdefault(date, {"nbre_de_texte" : 0, "nbre_de_mot" : 0, "nbre_de_caractere" : 0})
-        dictionnaire_ia5[date].setdefault(titre, {"Auteur":"", "Parole":""})
-        dictionnaire_ia5[date][titre]["Auteur"] = artiste
-        dictionnaire_ia5[date][titre]["Parole"] = texte
+        dictionnaire_ia5.setdefault(date[:4], {"nbre_de_texte" : 0, "nbre_de_mot" : 0, "nbre_de_caractere" : 0})
+        dictionnaire_ia5[date[:4]].setdefault(titre, {"Auteur":"", "Parole":""})
+        dictionnaire_ia5[date[:4]][titre]["Auteur"] = artiste
+        dictionnaire_ia5[date[:4]][titre]["Parole"] = texte
         if texte != None:
-            dictionnaire_ia5[date]["nbre_de_texte"] += 1
+            dictionnaire_ia5[date[:4]]["nbre_de_texte"] += 1
             mot_split = Splittxt3(texte)
             nbre_carac = 0
             for mot in mot_split:
                 for caractere in mot:
                     nbre_carac += 1
-            dictionnaire_ia5[date]["nbre_de_mot"] += len(mot_split)
-            dictionnaire_ia5[date]["nbre_de_caractere"] += nbre_carac
+            dictionnaire_ia5[date[:4]]["nbre_de_mot"] += len(mot_split)
+            dictionnaire_ia5[date[:4]]["nbre_de_caractere"] += nbre_carac
         #print(len(mot_split))
         #break
     #break
         
         #dictionnaire_ia5[date] = { titre : {}}
-print(dictionnaire_ia5)
-ecrire_json("dictionnaire_ia5.json", dictionnaire_ia5)
+dictionnaire_ia6 = {}
+for date, valeur in sorted(dictionnaire_ia5.items(), key=lambda x: x[0], reverse=False):
+    dictionnaire_ia6[date] = valeur
+print(dictionnaire_ia6)
+ecrire_json("dictionnaire_ia6.json", dictionnaire_ia6)
 
 
 # In[ ]:
