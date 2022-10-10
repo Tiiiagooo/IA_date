@@ -1,0 +1,12 @@
+restructuré le corpus avec liste de chanson dans le dictionnaire. si ya moin de 200 caractères pas mettre.
+
+
+
+date par décénie. 194, 195 etc...
+
+les classes dates, les textes sur le vectoriseur 
+
+train test split.
+
+ne pas prendre avant les années 40 
+
