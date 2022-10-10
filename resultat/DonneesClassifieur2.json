@@ -1,0 +1,101 @@
+[
+"Perceptron et vectoriseur simple " {
+"Bons résultats" :1107,
+"Erreurs" :878,
+},
+"Support vecteur machine sans stat et vectoriseur simple " {
+"Bons résultats" :1186,
+"Erreurs" :799,
+},
+"SVM linéaire et vectoriseur simple " {
+"Bons résultats" :1063,
+"Erreurs" :922,
+},
+"Arbre de decision et vectoriseur simple " {
+"Bons résultats" :1186,
+"Erreurs" :799,
+},
+"Random Forest et vectoriseur simple " {
+"Bons résultats" :1180,
+"Erreurs" :805,
+},
+"Perceptron et vectoriseur sans maj" {
+"Bons résultats" :1107,
+"Erreurs" :878,
+},
+"Support vecteur machine sans stat et vectoriseur sans maj" {
+"Bons résultats" :1186,
+"Erreurs" :799,
+},
+"SVM linéaire et vectoriseur sans maj" {
+"Bons résultats" :1060,
+"Erreurs" :925,
+},
+"Arbre de decision et vectoriseur sans maj" {
+"Bons résultats" :1183,
+"Erreurs" :802,
+},
+"Random Forest et vectoriseur sans maj" {
+"Bons résultats" :1180,
+"Erreurs" :805,
+},
+"Perceptron et vectoriseur ngramme" {
+"Bons résultats" :1140,
+"Erreurs" :845,
+},
+"Support vecteur machine sans stat et vectoriseur ngramme" {
+"Bons résultats" :1183,
+"Erreurs" :802,
+},
+"SVM linéaire et vectoriseur ngramme" {
+"Bons résultats" :1146,
+"Erreurs" :839,
+},
+"Arbre de decision et vectoriseur ngramme" {
+"Bons résultats" :1181,
+"Erreurs" :804,
+},
+"Random Forest et vectoriseur ngramme" {
+"Bons résultats" :1180,
+"Erreurs" :805,
+},
+"Perceptron et vectoriseur ngramme2" {
+"Bons résultats" :1027,
+"Erreurs" :958,
+},
+"Support vecteur machine sans stat et vectoriseur ngramme2" {
+"Bons résultats" :1183,
+"Erreurs" :802,
+},
+"SVM linéaire et vectoriseur ngramme2" {
+"Bons résultats" :1113,
+"Erreurs" :872,
+},
+"Arbre de decision et vectoriseur ngramme2" {
+"Bons résultats" :1202,
+"Erreurs" :783,
+},
+"Random Forest et vectoriseur ngramme2" {
+"Bons résultats" :1180,
+"Erreurs" :805,
+},
+"Perceptron et vectoriseur ngramme3" {
+"Bons résultats" :1031,
+"Erreurs" :954,
+},
+"Support vecteur machine sans stat et vectoriseur ngramme3" {
+"Bons résultats" :1184,
+"Erreurs" :801,
+},
+"SVM linéaire et vectoriseur ngramme3" {
+"Bons résultats" :1164,
+"Erreurs" :821,
+},
+"Arbre de decision et vectoriseur ngramme3" {
+"Bons résultats" :1203,
+"Erreurs" :782,
+},
+"Random Forest et vectoriseur ngramme3" {
+"Bons résultats" :1180,
+"Erreurs" :805,
+},

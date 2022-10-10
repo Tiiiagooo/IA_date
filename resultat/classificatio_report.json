@@ -1,0 +1,69 @@
+{
+  "1940": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2
+  },
+  "1950": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 16
+  },
+  "1960": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 38
+  },
+  "1970": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 50
+  },
+  "1980": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 64
+  },
+  "1990": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 110
+  },
+  "2000": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 372
+  },
+  "2010": {
+    "precision": 0.5944584382871536,
+    "recall": 1.0,
+    "f1-score": 0.7456556082148499,
+    "support": 1180
+  },
+  "2020": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 153
+  },
+  "accuracy": 0.5944584382871536,
+  "macro avg": {
+    "precision": 0.06605093758746151,
+    "recall": 0.1111111111111111,
+    "f1-score": 0.08285062313498331,
+    "support": 1985
+  },
+  "weighted avg": {
+    "precision": 0.35338083485080163,
+    "recall": 0.5944584382871536,
+    "f1-score": 0.4432612683594574,
+    "support": 1985
+  }
+}
